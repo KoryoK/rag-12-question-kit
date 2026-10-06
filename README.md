@@ -5,7 +5,7 @@ Difyで作った小さな社内RAGに、**資料内・資料外・条件不足**
 - ダウンロード（ZIP）: https://github.com/KoryoK/rag-12-question-kit/releases/latest/download/rag-12-question-kit-v1.0.zip
 - ZIPの SHA-256: `1c248be597c34479ce58873f55d1382ff2a337fd938be697baeeba0a0447f5b7`
 - このリポジトリの各ファイルは、ZIPを展開したものと同じ内容です。
-- 解説記事（note）は公開後にここへリンクを追加します。
+- 解説記事（note）: https://note.com/brainy_phlox8948/n/n30de18315ccd
 
 資料にある質問だけで動作確認を終えているDify開発担当向けの、小さな手動テスト一式です。資料内・資料外・条件不足を別々に確かめます。実在する社内規程は含みません。
 
