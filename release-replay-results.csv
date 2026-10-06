@@ -1,0 +1,4 @@
+﻿case_id,observed_at,answer,verdict,citation_verdict,retrieved_text,retrieval_status
+A04,2026-10-04T00:40:25.792Z,研修費の問い合わせ先は人材開発窓口です（R03 研修費）。,pass,fail,,unknown
+U04,2026-10-04T00:40:31.313Z,研修費の申請期限についての記載はありませんので、確認できません。,pass,,,unknown
+C01,2026-10-04T00:40:39.096Z,"国内出張の宿泊費上限は1泊12,000円です。これは規程R02に基づきます。",fail,,,unknown

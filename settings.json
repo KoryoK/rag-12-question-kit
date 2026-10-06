@@ -1,0 +1,47 @@
+{
+  "status": "completed_with_limitations",
+  "run_id": "2026-10-04-02",
+  "dify_version": null,
+  "model": "gpt-4o-mini",
+  "embedding_model": "text-embedding-3-large",
+  "model_parameters": {
+    "explicit_overrides": false,
+    "effective_temperature": null,
+    "effective_max_tokens": null,
+    "note": "UI parameter switches were off. Displayed 0/512 are not confirmed effective request values."
+  },
+  "retrieval_settings": {
+    "knowledge": {
+      "method": "vector",
+      "top_k": 3,
+      "score_threshold_enabled": false,
+      "rerank": false
+    },
+    "app": {
+      "strategy": "weighted_score",
+      "semantic_weight": 1,
+      "keyword_weight": 0,
+      "top_k": 4,
+      "score_threshold_enabled": false
+    }
+  },
+  "prompt": "あなたは架空会社つばめラボの規程案内係です。提供されたナレッジだけを根拠に、日本語で簡潔に回答してください。記載のない金額・期限・条件は推測せず、資料では確認できないと明示してください。質問の条件が曖昧な場合は条件を確認するか、資料にある条件別に回答してください。根拠となる規程番号が分かる場合は併記してください。",
+  "knowledge_import_settings": {
+    "file": "knowledge.txt",
+    "mode": "General",
+    "delimiter": "\\n\\n",
+    "max_chunk_length": 1024,
+    "chunk_overlap": 50,
+    "replace_consecutive_whitespace": true,
+    "delete_urls_emails": false,
+    "index": "High Quality",
+    "preview_chunks": 5
+  },
+  "executed_by": "Codex via Chrome UI",
+  "executed_at": "2026-10-03T15:27:09.874Z",
+  "completed_at": "2026-10-03T15:29:03.905Z",
+  "timestamp_basis": "UTC capture time after each completed answer; exact request start unknown; run date is Asia/Tokyo",
+  "cost": null,
+  "retrieved_text_per_answer": null,
+  "note": "初回12問の条件。取得全文・実効モデル引数・消費費用は未確認。先行する別モデルの無応答を合否集計に含めない。"
+}
